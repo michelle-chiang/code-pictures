@@ -1,0 +1,15 @@
+.linear-structs {
+  color: red;
+}
+
+.tree-structs {
+  color: orange;
+}
+
+.hash-structs {
+  color: green;
+}
+
+.graph-structs {
+  color: blue;
+}

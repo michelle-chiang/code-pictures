@@ -2,8 +2,6 @@
 
 Illustrating code: because visual examples are helpful when talking about complicated things.
 
-# About
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ## Development server
