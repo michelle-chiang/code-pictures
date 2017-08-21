@@ -1,0 +1,35 @@
+<div class="list-wrapper">
+  <ol>
+    <li *ngFor="let struct of linearStructs"
+      class="linear-structs"
+      [routerLink]="['', struct]"
+      [class.selected]="struct === selectedStruct"
+      (click)="onSelect(struct)">
+      {{ struct }}
+    </li>
+    <li *ngFor="let struct of trees"
+      class="tree-structs"
+      [routerLink]="['', struct]"
+      [class.selected]="struct === selectedStruct"
+      (click)="onSelect(struct)">
+      {{ struct }}
+    </li>
+    <li *ngFor="let struct of hashes"
+      class="hash-structs"
+      [routerLink]="['', struct]"
+      [class.selected]="struct === selectedStruct"
+      (click)="onSelect(struct)">
+      {{ struct }}
+    </li>
+    <li *ngFor="let struct of graphs"
+      class="graph-structs"
+      [routerLink]="['', struct]"
+      [class.selected]="struct === selectedStruct"
+      (click)="onSelect(struct)">
+      {{ struct }}
+    </li>
+  </ol>
+</div>
+<hr>
+<router-outlet></router-outlet>
+

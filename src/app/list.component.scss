@@ -1,0 +1,47 @@
+.list-wrapper {
+  max-width: 25%;
+  display: inline-block;
+}
+
+hr {
+  display: inline-block;
+  width: 1px;
+  height: 385px;
+  border-style: solid;
+}
+
+ol {
+  padding-left: 5%;
+}
+
+li {
+  outline: none;
+}
+
+.linear-structs {
+  &:hover,
+  &.selected {
+    color: red;
+  }
+}
+
+.tree-structs {
+  &:hover,
+  &.selected {
+    color: green;
+  }
+}
+
+.hash-structs {
+  &:hover,
+  &.selected {
+    color: orange;
+  }
+}
+
+.graph-structs {
+  &:hover,
+  &.selected {
+    color: blue;
+  }
+}
