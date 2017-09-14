@@ -1,6 +1,6 @@
 import { CodePicturesNewPage } from './app.po';
 
-describe('code-pictures-new App', function() {
+describe('code-pictures App', function() {
   let page: CodePicturesNewPage;
 
   beforeEach(() => {
