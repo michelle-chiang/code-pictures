@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { CodePicturesNewPage } from './app.po';
 
-describe('code-pictures App', () => {
-  let page: AppPage;
+describe('code-pictures-new App', function() {
+  let page: CodePicturesNewPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new CodePicturesNewPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
